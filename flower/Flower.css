@@ -1,0 +1,72 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+*{
+ box-sizing: border-box;
+}
+
+header {
+/* background-color: rgb(255, 0, 0); */
+background-image: url(/public/flower_style_image/banner3.jpeg);
+padding : 30px;
+text-align: center;
+font-size: 35%;
+color: rgb(190, 100, 100);
+}
+
+nav  {
+float: left;
+width: 30%;
+text-align: center;  
+height: 650px;
+background:rgb(255, 213, 0);
+padding: 20px;
+
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70% ;
+background-color: rgb(46, 155, 174);
+height: 650px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 320px;
+    height: 400px;
+}
+
+section::after{
+content: "";
+display: table;
+clear: both;
+}  
+
+footer {  
+background-color: rgb(190, 100,100);
+padding: 10px;
+text-align: center;
+color:purple ;
+}
+
+@media (max-width: 600px) {
+nav, article  {
+width: 100%;
+height: auto;
+}
+}
+
+
+
+

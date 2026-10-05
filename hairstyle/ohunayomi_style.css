@@ -1,0 +1,74 @@
+
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    *{
+     box-sizing: border-box;
+    }
+    
+    header {
+/* background-color: rgb(255, 0, 0); */
+background-image: url(./girl_style_image/banner1.PNG);
+padding : 30px;
+text-align: center;
+font-size: 35%;
+color: rgb(255, 0, 0);
+    }
+
+nav  {
+float: left;
+width: 30%;
+text-align: center;  
+height: 650px;
+background:rgb(15, 154, 175);
+padding: 20px;
+
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70% ;
+    background-color: purple;
+    height: 650px;
+    }
+    
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 20px;
+        width: 350px;
+        height: 400px;
+        align-items:center;
+    }
+
+  section::after{
+content: "";
+display: table;
+clear: both;
+  }  
+    
+  footer {  
+background-color: rgb(255, 0, 0);
+padding: 10px;
+text-align: center;
+color:purple ;
+  }
+    
+ @media (max-width: 600px) {
+   nav, article  {
+width: 100%;
+height: auto;
+   }
+ }
+
+
+
+
